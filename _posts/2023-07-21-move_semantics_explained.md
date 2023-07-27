@@ -5,6 +5,9 @@ footer-extra: creativecommons.html
 tags: [c++, move semantics, unique_ptr, rvalue reference]
 ---
 
+{: .box-node}
+Move semantics, introduced in C++11, is a powerful feature that allows to move data instead of copying it. Is it that simple? Of course not, C++ has to be complicated!.
+
 ![C++ makes people cry](/assets/img/c++_makes_people_cry.jpg)
 
 I like to share this image, but the hidden truth is that C++ makes *me* cry too 😆.

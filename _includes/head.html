@@ -82,6 +82,10 @@
   <meta property="fb:app_id" content="{{ site.fb_app_id }}">
   {% endif %}
 
+  {% if site.adsense_pub_id %}
+  <meta name="google-adsense-account" content="{{ site.adsense_pub_id }}">
+  {% endif %}
+
   {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}

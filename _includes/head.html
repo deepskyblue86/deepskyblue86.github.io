@@ -100,6 +100,7 @@
 
   {% if site.adsense_pub_id %}
   <meta name="google-adsense-account" content="{{ site.adsense_pub_id }}">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_pub_id }}" crossorigin="anonymous"></script>
   {% endif %}
 
   {% if site.title %}
